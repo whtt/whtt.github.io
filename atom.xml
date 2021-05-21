@@ -3,11 +3,11 @@
   <title>whtt&#39;s Blog</title>
   
   
-  <link href="https://github.com/whtt/whtt.github.io/myBlog/public/atom.xml" rel="self"/>
+  <link href="https://github.com/whtt/whtt.github.io/atom.xml" rel="self"/>
   
-  <link href="https://github.com/whtt/whtt.github.io/myBlog/public/"/>
+  <link href="https://github.com/whtt/whtt.github.io/"/>
   <updated>2021-05-21T08:37:36.938Z</updated>
-  <id>https://github.com/whtt/whtt.github.io/myBlog/public/</id>
+  <id>https://github.com/whtt/whtt.github.io/</id>
   
   <author>
     <name>whtt</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>将军叹</title>
-    <link href="https://github.com/whtt/whtt.github.io/myBlog/public/2021/05/21/general-sign/"/>
-    <id>https://github.com/whtt/whtt.github.io/myBlog/public/2021/05/21/general-sign/</id>
+    <link href="https://github.com/whtt/whtt.github.io/2021/05/21/general-sign/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/05/21/general-sign/</id>
     <published>2021-05-21T08:31:06.000Z</published>
     <updated>2021-05-21T08:37:36.938Z</updated>
     
@@ -35,14 +35,14 @@
     
     
     
-    <category term="poetry" scheme="https://github.com/whtt/whtt.github.io/myBlog/public/tags/poetry/"/>
+    <category term="poetry" scheme="https://github.com/whtt/whtt.github.io/tags/poetry/"/>
     
   </entry>
   
   <entry>
     <title>情书</title>
-    <link href="https://github.com/whtt/whtt.github.io/myBlog/public/2021/05/21/love-letter/"/>
-    <id>https://github.com/whtt/whtt.github.io/myBlog/public/2021/05/21/love-letter/</id>
+    <link href="https://github.com/whtt/whtt.github.io/2021/05/21/love-letter/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/05/21/love-letter/</id>
     <published>2021-05-21T08:23:47.000Z</published>
     <updated>2021-05-21T08:37:57.059Z</updated>
     
@@ -58,16 +58,16 @@
     
     
     
-    <category term="love" scheme="https://github.com/whtt/whtt.github.io/myBlog/public/tags/love/"/>
+    <category term="love" scheme="https://github.com/whtt/whtt.github.io/tags/love/"/>
     
-    <category term="essay" scheme="https://github.com/whtt/whtt.github.io/myBlog/public/tags/essay/"/>
+    <category term="essay" scheme="https://github.com/whtt/whtt.github.io/tags/essay/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://github.com/whtt/whtt.github.io/myBlog/public/2021/05/21/hello-world/"/>
-    <id>https://github.com/whtt/whtt.github.io/myBlog/public/2021/05/21/hello-world/</id>
+    <link href="https://github.com/whtt/whtt.github.io/2021/05/21/hello-world/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/05/21/hello-world/</id>
     <published>2021-05-21T07:55:31.817Z</published>
     <updated>2021-05-21T07:55:31.817Z</updated>
     

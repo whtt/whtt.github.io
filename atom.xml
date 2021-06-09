@@ -6,7 +6,7 @@
   <link href="https://github.com/whtt/whtt.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/whtt/whtt.github.io/"/>
-  <updated>2021-06-09T12:06:09.454Z</updated>
+  <updated>2021-06-09T12:50:51.218Z</updated>
   <id>https://github.com/whtt/whtt.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>量子计算文献综述</title>
+    <link href="https://github.com/whtt/whtt.github.io/2021/06/09/QC-review/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/06/09/QC-review/</id>
+    <published>2021-06-09T12:16:16.000Z</published>
+    <updated>2021-06-09T12:50:51.218Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;量子力学&quot;&gt;&lt;a href=&quot;#量子力学&quot; class=&quot;headerlink&quot; title=&quot;量子力学&quot;&gt;&lt;/a&gt;量子力学&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;这里更多的是专注于物理上的一些研究应用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="quantum" scheme="https://github.com/whtt/whtt.github.io/tags/quantum/"/>
+    
+    <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
+    
+    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
+    
+    <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
+    
+  </entry>
   
   <entry>
     <title>Quantum Computation Survey</title>
@@ -37,15 +69,15 @@
     
     <category term="quantum" scheme="https://github.com/whtt/whtt.github.io/tags/quantum/"/>
     
-    <category term="math" scheme="https://github.com/whtt/whtt.github.io/tags/math/"/>
-    
-    <category term="physics" scheme="https://github.com/whtt/whtt.github.io/tags/physics/"/>
+    <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
     
     <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
     
     <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
     
-    <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
+    <category term="math" scheme="https://github.com/whtt/whtt.github.io/tags/math/"/>
+    
+    <category term="physics" scheme="https://github.com/whtt/whtt.github.io/tags/physics/"/>
     
     <category term="tuning machine" scheme="https://github.com/whtt/whtt.github.io/tags/tuning-machine/"/>
     
@@ -96,27 +128,6 @@
     <category term="love" scheme="https://github.com/whtt/whtt.github.io/tags/love/"/>
     
     <category term="essay" scheme="https://github.com/whtt/whtt.github.io/tags/essay/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://github.com/whtt/whtt.github.io/2021/05/21/hello-world/"/>
-    <id>https://github.com/whtt/whtt.github.io/2021/05/21/hello-world/</id>
-    <published>2021-05-21T07:55:31.817Z</published>
-    <updated>2021-05-21T07:55:31.817Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   

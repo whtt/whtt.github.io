@@ -6,7 +6,7 @@
   <link href="https://github.com/whtt/whtt.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/whtt/whtt.github.io/"/>
-  <updated>2021-06-04T10:59:07.122Z</updated>
+  <updated>2021-06-09T12:06:09.454Z</updated>
   <id>https://github.com/whtt/whtt.github.io/</id>
   
   <author>
@@ -17,27 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>my baby</title>
-    <link href="https://github.com/whtt/whtt.github.io/2021/06/04/my-baby/"/>
-    <id>https://github.com/whtt/whtt.github.io/2021/06/04/my-baby/</id>
-    <published>2021-06-04T10:54:15.000Z</published>
-    <updated>2021-06-04T10:59:07.122Z</updated>
+    <title>Quantum Computation Survey</title>
+    <link href="https://github.com/whtt/whtt.github.io/2021/06/09/quantum-computation/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/06/09/quantum-computation/</id>
+    <published>2021-06-09T07:56:23.000Z</published>
+    <updated>2021-06-09T12:06:09.454Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Dayily&quot;&gt;&lt;a href=&quot;#Dayily&quot; class=&quot;headerlink&quot; title=&quot;Dayily&quot;&gt;&lt;/a&gt;Dayily&lt;/h1&gt;&lt;h2 id=&quot;morning&quot;&gt;&lt;a href=&quot;#morning&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
     
-    <category term="love" scheme="https://github.com/whtt/whtt.github.io/tags/love/"/>
+    <category term="quantum" scheme="https://github.com/whtt/whtt.github.io/tags/quantum/"/>
     
-    <category term="schedule" scheme="https://github.com/whtt/whtt.github.io/tags/schedule/"/>
+    <category term="math" scheme="https://github.com/whtt/whtt.github.io/tags/math/"/>
+    
+    <category term="physics" scheme="https://github.com/whtt/whtt.github.io/tags/physics/"/>
+    
+    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
+    
+    <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
+    
+    <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
+    
+    <category term="tuning machine" scheme="https://github.com/whtt/whtt.github.io/tags/tuning-machine/"/>
     
   </entry>
   

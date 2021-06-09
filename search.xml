@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>八声甘州 · 中美阿拉斯加会晤有感</title>
-    <url>/myBlog/public/2021/03/19/china-america-alaska-meeting-2021/</url>
-    <content><![CDATA[<p>忆当时八国赏京都，丧权辱神州。</p>
-<p>别中山傲骨，桩桩旧事，座座红楼。</p>
-<p>万里凄风楚雨，鲜血染吴钩。</p>
-<p>只盼晴光好，浪遏飞舟。</p>
-<p>千古忠魂伏虎，赴南征北战，失地难收。</p>
-<p>看东方狮吼，岁岁已无忧。</p>
-<p>百廿年、山花开遍，现如今、盛世遂君求。</p>
-<p>惊回首、舌唇又起，再冇辛丑。</p>
-]]></content>
-      <tags>
-        <tag>poetry</tag>
-        <tag>current affair</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>将军叹</title>
     <url>/myBlog/public/2021/05/21/general-sign/</url>
     <content><![CDATA[<h1 id="诗"><a href="#诗" class="headerlink" title="诗"></a>诗</h1><p>闺中有美人，咽泪把妆匀。</p>
@@ -49,6 +32,23 @@
 ]]></content>
       <tags>
         <tag>poetry</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>八声甘州 · 中美阿拉斯加会晤有感</title>
+    <url>/myBlog/public/2021/03/19/china-america-alaska-meeting-2021/</url>
+    <content><![CDATA[<p>忆当时八国赏京都，丧权辱神州。</p>
+<p>别中山傲骨，桩桩旧事，座座红楼。</p>
+<p>万里凄风楚雨，鲜血染吴钩。</p>
+<p>只盼晴光好，浪遏飞舟。</p>
+<p>千古忠魂伏虎，赴南征北战，失地难收。</p>
+<p>看东方狮吼，岁岁已无忧。</p>
+<p>百廿年、山花开遍，现如今、盛世遂君求。</p>
+<p>惊回首、舌唇又起，再冇辛丑。</p>
+]]></content>
+      <tags>
+        <tag>poetry</tag>
+        <tag>current affair</tag>
       </tags>
   </entry>
   <entry>
@@ -97,19 +97,147 @@
       </tags>
   </entry>
   <entry>
-    <title>my baby</title>
-    <url>/myBlog/public/2021/06/04/my-baby/</url>
-    <content><![CDATA[<h1 id="Dayily"><a href="#Dayily" class="headerlink" title="Dayily"></a>Dayily</h1><h2 id="morning"><a href="#morning" class="headerlink" title="morning"></a>morning</h2><p>7点半起床</p>
-<p>9点上班</p>
-<p>11点下班</p>
-<p>13点上班（冬）13点半上班（夏）</p>
-<p>17点下班</p>
-<p>加班18点</p>
-<h1 id="Weeky"><a href="#Weeky" class="headerlink" title="Weeky"></a>Weeky</h1><h2 id="Wednesday"><a href="#Wednesday" class="headerlink" title="Wednesday"></a>Wednesday</h2><p>晚上看综艺</p>
+    <title>Quantum Computation Survey</title>
+    <url>/myBlog/public/2021/06/09/quantum-computation/</url>
+    <content><![CDATA[<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>量子计算范围比较广，涉及到的学科涉及：</p>
+<ul>
+<li><p>数学</p>
+<ul>
+<li><p>高等数学（微积分）</p>
+</li>
+<li><p>线性空间（希尔伯特空间）</p>
+</li>
+<li><p>群论（包含李群）</p>
+</li>
+<li><p>离散数学</p>
+</li>
+<li><p>概率论与数理统计</p>
+</li>
+<li><p>数论</p>
+</li>
+<li><p>复变函数</p>
+</li>
+</ul>
+</li>
+<li><p>物理</p>
+<ul>
+<li><p>量子力学</p>
+</li>
+<li><p>相对论</p>
+</li>
+</ul>
+</li>
+<li><p>计算机</p>
+<ul>
+<li><p>可计算理论</p>
+</li>
+<li><p>算法设计</p>
+</li>
+<li><p>电路设计</p>
+</li>
+<li><p>图灵机</p>
+</li>
+</ul>
+</li>
+<li><p>自动化</p>
+<ul>
+<li><p>运筹学</p>
+</li>
+<li><p>线性系统</p>
+</li>
+<li><p>系统辨识</p>
+</li>
+<li><p>深度学习</p>
+</li>
+<li><p>控制理论</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>等等。</p>
+<p>所以，对量子计算的把握从以下几个方面：</p>
+<ul>
+<li><p>期刊</p>
+</li>
+<li><p>资源库</p>
+</li>
+<li><p>研究人员</p>
+</li>
+<li><p>研究方向</p>
+</li>
+</ul>
+<p>以及相关的一些推荐。</p>
+<h1 id="期刊"><a href="#期刊" class="headerlink" title="期刊"></a>期刊</h1><h2 id="一区"><a href="#一区" class="headerlink" title="一区"></a>一区</h2><p><a href="https://www.nature.com/"><code>Nature</code></a></p>
+<p>上面偶尔有些量子信息相关的文章，但大部分理论类实际上噱头较多，内容空洞。实验的文章就是很重要的结果了。</p>
+<p><code>Science</code></p>
+<p><code>Review of Modern Physics</code> </p>
+<p>主要是综述</p>
+<p><code>Nature Physics</code> </p>
+<p>nature的物理专刊</p>
+<p><code>Nature Communication</code> </p>
+<p>上面有很多量子信息相关的文章</p>
+<p><code>Physical Review Letters</code> </p>
+<p>主要是短文，因为对论文长度有相当苛刻的要求</p>
+<p><code>Proceedings of the National Academy of Sciences of the United States</code></p>
+<p><code>Light-Science &amp; Applications</code></p>
+<p><code>Physical Review X</code> </p>
+<p>有当年physical review的感觉，文章不限长度，有许多非常严肃的工作在上面</p>
+<p><code>Optica</code> </p>
+<p>实验进展比较多</p>
+<p><code>Physical Review Applied</code></p>
+<p><code>NPJ Quantum Information</code> </p>
+<p>nature的量子信息专刊</p>
+<h2 id="二区"><a href="#二区" class="headerlink" title="二区"></a>二区</h2><p><code>Physical Review A</code> 专门针对量子信息的子刊</p>
+<p><code>Physical Review B</code></p>
+<p><code>New Journal of Physics</code> IOP杂质，量子信息研究的论文很多，质量不错</p>
+<p><code>Optics Letters</code></p>
+<p><code>Optics Express</code></p>
+<p><code>Applied Physics Letters</code></p>
+<p><code>Applied Physics Express</code></p>
+<h2 id="三区"><a href="#三区" class="headerlink" title="三区"></a>三区</h2><p><code>Science China-Physics Mechanics &amp; Astronomy</code></p>
+<p><code>Europhysics Letters</code> IOP旗下，有许多量子信息方面的论文</p>
+<p><code>Scientific Reports</code> 文章档次良莠不齐，风评不一，但有很多量子信息相关的文章在上面发表</p>
+<p><code>Quantum Information Processing</code> Springer量子信息专刊</p>
+<p><code>Journal of Physics A-Mathematical and Theoretical</code></p>
+<p><code>Journal of Physics B-atomic Molecular and Optical Physics</code></p>
+<p><code>Annals of Physics</code> 许多长文在上面，质量非常高</p>
+<p><code>Physics Letters A</code> 很多量子信息相关的文章</p>
+<p><code>Communications in Mathematical Physics</code> Springer旗下，数学物理的顶尖杂质，常常会有一些量子信息相关的文章</p>
+<p><code>IEEE Journal of Quantum Electronics</code></p>
+<p><code>Journal of the Physical Society of Japan</code></p>
+<h2 id="四区"><a href="#四区" class="headerlink" title="四区"></a>四区</h2><p><code>Science China-Information Sciences</code></p>
+<p><code>JETP Letters</code></p>
+<p><code>Quantum Information &amp; Computation</code></p>
+<p><code>International Journal of Theoretical Physics</code></p>
+<p><code>Communications in Theroetical Physics</code></p>
+<p><code>Japanese Journal of Applied Physics</code></p>
+<p><code>International Journal of Quantum Information</code></p>
+<p><code>European Journal of Physics</code></p>
+<p><code>Physica Scripta</code></p>
+<p><code>Chinese Physics B</code></p>
+<p><code>Chinese Physics Letters</code></p>
+<p><code>Optik</code></p>
+<p><code>Acta Physica Sinica</code></p>
+<p><code>Modern Physics Letters B</code></p>
+<p><code>International Journal of Modern Physics B</code></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p><code>Proceedings of the Royal Society A</code> 英国皇家学会会刊，早期量子力学大佬许多文章都在这上面，现在有些衰落</p>
+<p><code>Physics Reports</code> 综述类的文章比较多，质量很高。</p>
+<h1 id="研究人员"><a href="#研究人员" class="headerlink" title="研究人员"></a>研究人员</h1><h1 id="研究方向"><a href="#研究方向" class="headerlink" title="研究方向"></a>研究方向</h1><h1 id="资源库"><a href="#资源库" class="headerlink" title="资源库"></a>资源库</h1><p><code>Arxiv</code> <code>Quantum Physics</code></p>
+<p><code>wikipedia</code></p>
+<p><code>Quantiki</code></p>
+<p><code>Quantamagazine</code></p>
+<p><code>量子客</code></p>
+<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p>也疏寒. 量子信息与量子计算研究常用学术期刊. 知乎. <a href="https://zhuanlan.zhihu.com/p/106053023">https://zhuanlan.zhihu.com/p/106053023</a></p>
+<p>NegEntropy. 量子计算与量子信息领域常用期刊汇总. 知乎. <a href="https://zhuanlan.zhihu.com/p/34331373">https://zhuanlan.zhihu.com/p/34331373</a></p>
 ]]></content>
       <tags>
-        <tag>love</tag>
-        <tag>schedule</tag>
+        <tag>quantum</tag>
+        <tag>math</tag>
+        <tag>physics</tag>
+        <tag>deep learning</tag>
+        <tag>survey</tag>
+        <tag>computable</tag>
+        <tag>tuning machine</tag>
       </tags>
   </entry>
 </search>

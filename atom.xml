@@ -6,7 +6,7 @@
   <link href="https://github.com/whtt/whtt.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/whtt/whtt.github.io/"/>
-  <updated>2021-06-09T12:50:51.218Z</updated>
+  <updated>2021-06-15T09:11:21.028Z</updated>
   <id>https://github.com/whtt/whtt.github.io/</id>
   
   <author>
@@ -17,11 +17,98 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念2</title>
+    <link href="https://github.com/whtt/whtt.github.io/2021/06/15/reading-QIQC-jianmingjiaocheng-01-02/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/06/15/reading-QIQC-jianmingjiaocheng-01-02/</id>
+    <published>2021-06-15T09:09:58.000Z</published>
+    <updated>2021-06-15T09:11:21.028Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;量子通信&quot;&gt;&lt;a href=&quot;#量子通信&quot; class=&quot;headerlink&quot; title=&quot;量子通信&quot;&gt;&lt;/a&gt;量子通信&lt;/h2&gt;&lt;h2 id=&quot;量子加密&quot;&gt;&lt;a href=&quot;#量子加密&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="quantum" scheme="https://github.com/whtt/whtt.github.io/tags/quantum/"/>
+    
+    <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
+    
+    <category term="note" scheme="https://github.com/whtt/whtt.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念1</title>
+    <link href="https://github.com/whtt/whtt.github.io/2021/06/12/reading-QIQC-jianmingjiaocheng-01-01/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/06/12/reading-QIQC-jianmingjiaocheng-01-01/</id>
+    <published>2021-06-12T11:42:59.000Z</published>
+    <updated>2021-06-15T09:08:45.426Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;量子信息&quot;&gt;&lt;a href=&quot;#量子信息&quot; class=&quot;headerlink&quot; title=&quot;量子信息&quot;&gt;&lt;/a&gt;量子信息&lt;/h2&gt;&lt;h3 id=&quot;量子&quot;&gt;&lt;a href=&quot;#量子&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="quantum" scheme="https://github.com/whtt/whtt.github.io/tags/quantum/"/>
+    
+    <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
+    
+    <category term="note" scheme="https://github.com/whtt/whtt.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>量子计算——学习资料整理</title>
+    <link href="https://github.com/whtt/whtt.github.io/2021/06/12/QC-learning-recommend/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/06/12/QC-learning-recommend/</id>
+    <published>2021-06-12T10:53:34.000Z</published>
+    <updated>2021-06-12T11:14:44.112Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://qiskit.org/textbook/preface.html&quot;&gt;Qiskit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  一个关于量子计算的网站，Qiskit本身是一个开源的量子开发工具。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="quantum" scheme="https://github.com/whtt/whtt.github.io/tags/quantum/"/>
+    
+    <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
+    
+    <category term="note" scheme="https://github.com/whtt/whtt.github.io/tags/note/"/>
+    
+    <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
+    
+  </entry>
+  
+  <entry>
     <title>量子计算文献综述</title>
     <link href="https://github.com/whtt/whtt.github.io/2021/06/09/QC-review/"/>
     <id>https://github.com/whtt/whtt.github.io/2021/06/09/QC-review/</id>
     <published>2021-06-09T12:16:16.000Z</published>
-    <updated>2021-06-09T12:50:51.218Z</updated>
+    <updated>2021-06-10T05:57:39.870Z</updated>
     
     
       
@@ -42,9 +129,9 @@
     
     <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
     
-    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
-    
     <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
+    
+    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
     
   </entry>
   
@@ -71,9 +158,9 @@
     
     <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
     
-    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
-    
     <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
+    
+    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
     
     <category term="math" scheme="https://github.com/whtt/whtt.github.io/tags/math/"/>
     

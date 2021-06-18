@@ -71,7 +71,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">1.7k</span>
+            <span class="post-count">2.5k</span>
         </span>
     </span>
 
@@ -80,7 +80,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">6 min</span>
+            <span class="post-count">10 min</span>
         </span>
     </span>
 </div>
@@ -153,7 +153,16 @@
 <p>先提取原物的所有信息，然后将这些信息传送到接受地点，接受者依据这些信息，选取与构成原物完全相同的基本单元，制造出原物完美的复制品。</p>
 <p>1993年Bennet等来自4个国家的六位科学家联名发表了一篇文章，提出了量子隐形传态的设想，其原理就是利用量子态纠缠EPR粒子对的远程关联。</p>
 <p>将原物的信息生成经典信息和量子信息两部分，他们分别经由景点通道和量子通道传送给接收者。经典信息是由发送者对原物进行某种测量而获得的信息，量子信息是发送者在测量中未提取的其余信息；接收者在获得这两种信息后，就可以制备出原物量子态的完全复制品。</p>
-<h2 id="量子态不可克隆定理"><a href="#量子态不可克隆定理" class="headerlink" title="量子态不可克隆定理"></a>量子态不可克隆定理</h2><h2 id="NP问题"><a href="#NP问题" class="headerlink" title="NP问题"></a>NP问题</h2><h2 id="Shor算法思想简介"><a href="#Shor算法思想简介" class="headerlink" title="Shor算法思想简介"></a>Shor算法思想简介</h2> 
+<h2 id="量子态不可克隆定理"><a href="#量子态不可克隆定理" class="headerlink" title="量子态不可克隆定理"></a>量子态不可克隆定理</h2><ol>
+<li>由于量子态具有叠加性，因此单次测量是不能完全得知一个量子态的。</li>
+<li><code>量子态不可克隆定理</code>：任意量子态是不能复制的。</li>
+<li>证明：<br>设A和B是两个量子系统，它们分别处于$|\varphi_A\rangle$和$|0_B\rangle$状态，后者是系统B在拷贝前所处的空白状态。假设有某种操作能够把系统A的任意量子态拷贝到系统B上，即<br>$$<br>|\varphi_A\rangle\otimes|0_B\rangle\stackrel{拷贝}{\longrightarrow}|\varphi_A\rangle\otimes|\varphi_B\rangle<br>$$<br>那么，同样的操作当然也能够将另一量子态从系统A拷贝到系统B上：<br> $$<br>|\psi_A\rangle\otimes|0_B\rangle\stackrel{拷贝}{\longrightarrow}|\psi_A\rangle\otimes|\psi_B\rangle<br>$$<br>取它们的叠加态<br>$$<br>|\Psi\rangle=|\varphi_A\rangle+|\psi_A\rangle<br>$$<br>按量子态的线性叠加原理，有<br>$$<br>|\Psi\rangle\otimes|0_B\rangle=|\varphi_A\rangle\otimes|0_B\rangle+|\psi_A\otimes|0_B\rangle \<br>\stackrel{拷贝}{\longrightarrow}|\varphi_A\rangle\otimes|\varphi_B\rangle+|\psi_A\rangle\otimes|\psi_B\rangle\neq|\Psi_A\rangle\otimes|\Psi_B\rangle<br>$$<br>因为<br>$$<br>|\Psi_A\rangle\otimes|\Psi_B\rangle=|\varphi_A\rangle\otimes|\varphi_B\rangle+|\psi_A\rangle\otimes|\psi_B\rangle+|\varphi_A\rangle\otimes|\psi_B\rangle+|\psi_A\rangle\otimes|\varphi_B\rangle<br>$$<br>结论的矛盾表明，量子态的线性叠加原理排斥了克隆任意量子态的可能性。</li>
+</ol>
+<h2 id="Shor算法思想简介"><a href="#Shor算法思想简介" class="headerlink" title="Shor算法思想简介"></a>Shor算法思想简介</h2><p>设待分解的大数为N，它的平方用二进制来表示有L位，即$N^2&lt;2^L&lt;2N^2$。选用的周期性函数为余函数类：<br>$$f(x)=a^x \mod N$$<br>这里$a(a&lt;N)$是任选的一个与N互质的整数，x取从0到$2^L$的整数值。显然$f(x)$所取的值属于正整数集合${1, 2, \cdots, N-1}$，且是一个周期性的函数。</p>
+<p>一般来说，对于大数N，选定一个a，若能求得式中的余函数周期T，设T为偶数（若求得的周期T为奇数，另选一个a重来），则令$A=a^{T/2}+1$，$B=a^{T/2}-1$，求$(A,N)$和$(B,N)$的最大公约数C和D。由数论的结果可知，C和D是N的质因子$N=C\times D$。</p>
+<p>取两组各有L各量子比特的存储器，通过幺正变换实现下式的纠缠状态：<br>$$<br>\sum_{i=1}^{n}|x_i\rangle\rangle\otimes|f(x_i)\rangle\rangle\<br>=|x_1\rangle\rangle\times|f(x_1)\rangle\rangle+|x_2\rangle\rangle\times|f(x_2)\rangle\rangle+\cdots+|x_n\rangle\rangle\times|f(x_n)\rangle\rangle<br>$$<br>式中$f(x)$是由上式定义的余函数，$n=2^L$。对存储器x作离散傅里叶变换：<br>$$<br>|x\rangle\rangle=\frac{1}{\sqrt{2^L}}\sum_{k=0}^{2^L-1}e^{2\pi ikx/2^L}|k\rangle\rangle<br>$$<br>于是两存储器里的纠缠态化为<br>$$<br>|\Psi\rangle=\frac{1}{\sqrt{2^L}}\sum_{x=0}^{2^L-1}\sum_{k=0}^{2^L-1}e^{2\pi ikx/2^L}|k\rangle\rangle\otimes|f(x)\rangle\rangle<br>$$<br>此时，第一个存储器（x存储器）变为k存储器。由于$f(x)$的周期性，上式中许多项可以合并，而且大部分项相消或近似相消。只有k取下列各值时系数（概率幅）明显不为0：<br>$$<br>k=[m\frac{2^L}{T}],<del>(m=0,</del>1,<del>\cdots,</del>T-1)<br>$$<br>因此，除$k=0$外，$\frac{2^L}{k}\approx\frac{T}{m}$</p>
+<p>量子计算机中Shor算法的每一步骤都是可以通过多项式算法来完成的。所以，在量子计算机中SHor算法是有效的算法。</p>
+ 
       <!-- reward -->
       
       <div id="reword-out">
@@ -235,6 +244,15 @@
 
    
   <nav class="article-nav">
+    
+      <a href="/myBlog/public/2021/06/18/reading-QIQC-jianmingjiaocheng-01-04/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念4
+          
+        </div>
+      </a>
     
     
       <a href="/myBlog/public/2021/06/15/reading-QIQC-jianmingjiaocheng-01-02/" class="article-nav-link">

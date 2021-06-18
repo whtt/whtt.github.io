@@ -6,7 +6,7 @@
   <link href="https://github.com/whtt/whtt.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/whtt/whtt.github.io/"/>
-  <updated>2021-06-17T08:06:26.132Z</updated>
+  <updated>2021-06-18T05:15:18.754Z</updated>
   <id>https://github.com/whtt/whtt.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念4</title>
+    <link href="https://github.com/whtt/whtt.github.io/2021/06/18/reading-QIQC-jianmingjiaocheng-01-04/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/06/18/reading-QIQC-jianmingjiaocheng-01-04/</id>
+    <published>2021-06-18T05:11:53.000Z</published>
+    <updated>2021-06-18T05:15:18.754Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;量子逻辑门&quot;&gt;&lt;a href=&quot;#量子逻辑门&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="quantum" scheme="https://github.com/whtt/whtt.github.io/tags/quantum/"/>
+    
+    <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
+    
+    <category term="note" scheme="https://github.com/whtt/whtt.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念3</title>
     <link href="https://github.com/whtt/whtt.github.io/2021/06/17/reading-QIQC-jianmingjiaocheng-01-03/"/>
     <id>https://github.com/whtt/whtt.github.io/2021/06/17/reading-QIQC-jianmingjiaocheng-01-03/</id>
     <published>2021-06-17T07:10:37.000Z</published>
-    <updated>2021-06-17T08:06:26.132Z</updated>
+    <updated>2021-06-18T05:11:28.312Z</updated>
     
     
       

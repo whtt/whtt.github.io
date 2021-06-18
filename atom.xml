@@ -6,7 +6,7 @@
   <link href="https://github.com/whtt/whtt.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/whtt/whtt.github.io/"/>
-  <updated>2021-06-15T09:11:21.028Z</updated>
+  <updated>2021-06-17T08:06:26.132Z</updated>
   <id>https://github.com/whtt/whtt.github.io/</id>
   
   <author>
@@ -17,18 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念3</title>
+    <link href="https://github.com/whtt/whtt.github.io/2021/06/17/reading-QIQC-jianmingjiaocheng-01-03/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/06/17/reading-QIQC-jianmingjiaocheng-01-03/</id>
+    <published>2021-06-17T07:10:37.000Z</published>
+    <updated>2021-06-17T08:06:26.132Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;薛定谔的猫&quot;&gt;&lt;a href=&quot;#薛定谔的猫&quot; class=&quot;headerlink&quot; title=&quot;薛定谔的猫&quot;&gt;&lt;/a&gt;薛定谔的猫&lt;/h2&gt;&lt;h3 id=&quot;物理数学基础&quot;&gt;&lt;a href=&quot;#物理数学基础&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="quantum" scheme="https://github.com/whtt/whtt.github.io/tags/quantum/"/>
+    
+    <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
+    
+    <category term="note" scheme="https://github.com/whtt/whtt.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念2</title>
     <link href="https://github.com/whtt/whtt.github.io/2021/06/15/reading-QIQC-jianmingjiaocheng-01-02/"/>
     <id>https://github.com/whtt/whtt.github.io/2021/06/15/reading-QIQC-jianmingjiaocheng-01-02/</id>
     <published>2021-06-15T09:09:58.000Z</published>
-    <updated>2021-06-15T09:11:21.028Z</updated>
+    <updated>2021-06-17T07:09:41.656Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;量子通信&quot;&gt;&lt;a href=&quot;#量子通信&quot; class=&quot;headerlink&quot; title=&quot;量子通信&quot;&gt;&lt;/a&gt;量子通信&lt;/h2&gt;&lt;h2 id=&quot;量子加密&quot;&gt;&lt;a href=&quot;#量子加密&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;量子通信&quot;&gt;&lt;a href=&quot;#量子通信&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -48,7 +75,7 @@
     <link href="https://github.com/whtt/whtt.github.io/2021/06/12/reading-QIQC-jianmingjiaocheng-01-01/"/>
     <id>https://github.com/whtt/whtt.github.io/2021/06/12/reading-QIQC-jianmingjiaocheng-01-01/</id>
     <published>2021-06-12T11:42:59.000Z</published>
-    <updated>2021-06-15T09:08:45.426Z</updated>
+    <updated>2021-06-15T11:23:03.637Z</updated>
     
     
       

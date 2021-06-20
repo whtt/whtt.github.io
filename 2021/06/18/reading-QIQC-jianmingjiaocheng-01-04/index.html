@@ -71,7 +71,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">39</span>
+            <span class="post-count">1.4k</span>
         </span>
     </span>
 
@@ -80,7 +80,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-count">7 min</span>
         </span>
     </span>
 </div>
@@ -95,9 +95,126 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="量子逻辑门"><a href="#量子逻辑门" class="headerlink" title="量子逻辑门"></a>量子逻辑门</h2><ol>
+  <h2 id="量子逻辑门"><a href="#量子逻辑门" class="headerlink" title="量子逻辑门"></a>量子逻辑门</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ol>
 <li>量子逻辑电路称为量子逻辑门，按输入比特的个数可分为单比特、二比特、三比特等。</li>
+<li>描述单一量子比特逻辑门的矩阵$U$都是酉矩阵，即$U^{\dagger}U=I$.</li>
+<li>幺正性约束是量子逻辑门上的唯一的约束，任何一个酉矩阵都可以指定为有效的量子逻辑门。</li>
 </ol>
+<h3 id="常见门"><a href="#常见门" class="headerlink" title="常见门"></a>常见门</h3><ol>
+<li>$Z-gate$<br>$$<br>Z\equiv\begin{bmatrix}<pre><code>1 &amp; 0 \\ 0 &amp; -1
+</code></pre>
+\end{bmatrix}<br>$$<br>保持状态$|0\rangle$不变，将状态$|1\rangle$的符号翻转成$-|1\rangle$.即<br>$$<br>\alpha|0\rangle+\beta|1\rangle\rightarrow\begin{bmatrix}<pre><code>\alpha \\ \beta
+</code></pre>
+\end{bmatrix} \<br>Z(\alpha|0\rangle+\beta|1\rangle)\rightarrow\begin{bmatrix}<pre><code>1 &amp; 0 \\ 0 &amp; -1
+</code></pre>
+\end{bmatrix}\begin{bmatrix}<pre><code>\alpha \\ \beta
+</code></pre>
+\end{bmatrix}=\begin{bmatrix}<pre><code>\alpha \\ -\beta
+</code></pre>
+\end{bmatrix}\rightarrow<br>\alpha|0\rangle-\beta|1\rangle<br>$$</li>
+<li>$Hadamard-gate$<br>$$<br>H\equiv\frac{1}{\sqrt{2}}\begin{bmatrix}<pre><code>1 &amp; 1 \\ 1 &amp; -1
+</code></pre>
+\end{bmatrix}<br>$$<br>这个逻辑门有时被描述成为非门的平方根（实际并不是），它将$|0\rangle$变换到$\frac{|0\rangle+|1\rangle}{\sqrt{2}}$，将$|1\rangle$变换到$\frac{|0\rangle-|1\rangle}{\sqrt{2}}$.即<br>$$<br>U(\alpha|0\rangle+\beta|1\rangle)\rightarrow\frac{1}{\sqrt{2}}\begin{bmatrix}<pre><code>1 &amp; 1 \\ 1 &amp; -1
+</code></pre>
+\end{bmatrix}\begin{bmatrix}<pre><code>\alpha \\ \beta
+</code></pre>
+\end{bmatrix}=\frac{1}{\sqrt{2}}\begin{bmatrix}<pre><code>\alpha+\beta \\ \alpha-\beta
+</code></pre>
+\end{bmatrix}\rightarrow<br>\frac{\alpha+\beta}{\sqrt{2}}|0\rangle+\frac{\alpha-\beta}{\sqrt{2}}|1\rangle<br>$$<br>也就是<br>$$<br>\frac{|0\rangle+|1\rangle}{\sqrt{2}}\alpha+\frac{|0\rangle-|1\rangle}{\sqrt{2}}\beta<br>$$</li>
+<li>其他单比特量子逻辑门<br>$$<br>\begin{aligned}<pre><code>X&amp;=\begin&#123;bmatrix&#125;
+    0 &amp; 1 \\ 1 &amp; 0
+\end&#123;bmatrix&#125;\\
+Y&amp;=\begin&#123;bmatrix&#125;
+    0 &amp; -i \\ i &amp; 0
+\end&#123;bmatrix&#125;\\
+S&amp;=\begin&#123;bmatrix&#125;
+    1 &amp; 0 \\ 0 &amp; i
+\end&#123;bmatrix&#125;\\
+T&amp;=\begin&#123;bmatrix&#125;
+    1 &amp; 0 \\ 0 &amp; e^&#123;i\pi/4&#125;
+\end&#123;bmatrix&#125;
+</code></pre>
+\end{aligned}<br>$$</li>
+<li>$Controlled-NOT$<br>$$<br>CNOT = \begin{bmatrix}<pre><code>1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1 \\
+0 &amp; 0 &amp; 1 &amp; 0
+</code></pre>
+\end{bmatrix}<br>$$<br>受控非门的主要作用是在第一个比特为$|1\rangle$时将第二个比特变换。也就是说，第一个比特处于激发态时，第二个比特转换态。即，对于<br>$$<br>\alpha_{00}|00\rangle+\alpha_{01}|01\rangle+\alpha_{10}|10\rangle+\alpha_{11}|11\rangle<br>\rightarrow\begin{bmatrix}<pre><code>\alpha_&#123;00&#125; \\
+\alpha_&#123;01&#125; \\
+\alpha_&#123;10&#125; \\
+\alpha_&#123;11&#125;
+</code></pre>
+\end{bmatrix}<br>$$<br>有<br>$$<br>CNOT * (\alpha_{00}|00\rangle+\alpha_{01}|01\rangle+\alpha_{10}|10\rangle+\alpha_{11}|11\rangle) \ \rightarrow<br>\begin{bmatrix}<pre><code>1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1 \\
+0 &amp; 0 &amp; 1 &amp; 0
+</code></pre>
+\end{bmatrix}<br>\begin{bmatrix}<pre><code>\alpha_&#123;00&#125; \\
+\alpha_&#123;01&#125; \\
+\alpha_&#123;10&#125; \\
+\alpha_&#123;11&#125;
+</code></pre>
+\end{bmatrix}=<br>\begin{bmatrix}<pre><code>\alpha_&#123;00&#125; \\
+\alpha_&#123;01&#125; \\
+\alpha_&#123;11&#125; \\
+\alpha_&#123;10&#125;
+</code></pre>
+\end{bmatrix}<br>\rightarrow<br>\alpha_{00}|00\rangle+\alpha_{01}|01\rangle+\alpha_{11}|10\rangle+\alpha_{10}|11\rangle<br>$$</li>
+<li>其他二比特量子逻辑门<br>$$<br>\begin{aligned}<pre><code>Swap &amp;= \begin&#123;bmatrix&#125;
+     1 &amp; 0 &amp; 0 &amp; 0 \\
+     0 &amp; 0 &amp; 1 &amp; 0 \\
+     0 &amp; 1 &amp; 0 &amp; 0 \\
+     0 &amp; 0 &amp; 0 &amp; 1
+\end&#123;bmatrix&#125; \\
+Controlled-Z &amp;= \begin&#123;bmatrix&#125;
+     1 &amp; 0 &amp; 0 &amp; 0 \\
+     0 &amp; 1 &amp; 0 &amp; 0 \\
+     0 &amp; 0 &amp; 1 &amp; 0 \\
+     0 &amp; 0 &amp; 0 &amp; -1
+\end&#123;bmatrix&#125; \\
+Controlled-phase &amp;= \begin&#123;bmatrix&#125;
+     1 &amp; 0 &amp; 0 &amp; 0 \\
+     0 &amp; 1 &amp; 0 &amp; 0 \\
+     0 &amp; 0 &amp; 1 &amp; 0 \\
+     0 &amp; 0 &amp; 0 &amp; i
+\end&#123;bmatrix&#125;
+</code></pre>
+\end{aligned}<br>$$</li>
+<li>$Toffoli$<br>$$<br>Toffoli = \begin{bmatrix}<pre><code>1&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0\\
+0&amp;1&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0\\
+0&amp;0&amp;1&amp;0&amp;0&amp;0&amp;0&amp;0\\
+0&amp;0&amp;0&amp;1&amp;0&amp;0&amp;0&amp;0\\
+0&amp;0&amp;0&amp;0&amp;1&amp;0&amp;0&amp;0\\
+0&amp;0&amp;0&amp;0&amp;0&amp;1&amp;0&amp;0\\
+0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;1\\
+0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;1&amp;0
+</code></pre>
+\end{bmatrix}<br>$$<br>Toffoli门是一个通用门，它在两个比特都处于激发态时，改变第三个比特的状态；在其他状态则保持不变。</li>
+<li>$Fredkin(Controlled-swap)$<br>   $$<br>Fredkin = \begin{bmatrix}<pre><code>1&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0\\
+0&amp;1&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0\\
+0&amp;0&amp;1&amp;0&amp;0&amp;0&amp;0&amp;0\\
+0&amp;0&amp;0&amp;1&amp;0&amp;0&amp;0&amp;0\\
+0&amp;0&amp;0&amp;0&amp;1&amp;0&amp;0&amp;0\\
+0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;1&amp;0\\
+0&amp;0&amp;0&amp;0&amp;0&amp;1&amp;0&amp;0\\
+0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;1
+</code></pre>
+\end{bmatrix}<br>$$</li>
+</ol>
+<h2 id="图灵机"><a href="#图灵机" class="headerlink" title="图灵机"></a>图灵机</h2><h3 id="经典图灵机"><a href="#经典图灵机" class="headerlink" title="经典图灵机"></a>经典图灵机</h3><ol>
+<li>经典计算机实际上就是一个<code>通用图灵机</code>，通用图灵机是计算机的<code>抽象数学模型</code>。</li>
+<li>TM的构成<ul>
+<li>记忆单元</li>
+<li>处理单元</li>
+<li>控制程序</li>
+</ul>
+</li>
+<li>TM的三元组$M=(Q,\Sigma, \delta)$，其中$Q$是一个有限非空集合，表示TM的状态；$\Sigma$是一个有限非空集合，表示运算开始前输入数据的字符，其中有一特别的符号代表空白；$\delta$表示TM的控制程序的状态转换函数，该函数自$Q\times\Sigma$映射至$Q\times\Sigma\times D$（$D={L,<del>R,</del>N}$分别代表读写头左移、右移（一格）或不移动。</li>
+</ol>
+<h3 id="量子图灵机"><a href="#量子图灵机" class="headerlink" title="量子图灵机"></a>量子图灵机</h3><p>经典图灵机中，若每一步的移动存在不确定性，即当$q$和$\delta$给定时，图灵机以一定的概率$\delta(q, \sigma,d)$变换到状态$q’$和$\sigma’$及实行运动$d$.概率函数$\delta(q,\sigma,d)$为取值$[0,~1]$的实数，完全决定了概率图灵机的性质。</p>
+<p><strong>经典计算机理论证明，对解决某些问题，概率算法比确定性算法更为有效。</strong></p>
+<p><strong>对所有不可逆的通用图灵机，都可以找到一个对应的可逆图灵机，使得两者具有完全相同的计算能力和计算效率。</strong></p>
  
       <!-- reward -->
       

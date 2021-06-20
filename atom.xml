@@ -6,7 +6,7 @@
   <link href="https://github.com/whtt/whtt.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/whtt/whtt.github.io/"/>
-  <updated>2021-06-18T05:15:18.754Z</updated>
+  <updated>2021-06-20T13:06:37.589Z</updated>
   <id>https://github.com/whtt/whtt.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://github.com/whtt/whtt.github.io/2021/06/18/reading-QIQC-jianmingjiaocheng-01-04/"/>
     <id>https://github.com/whtt/whtt.github.io/2021/06/18/reading-QIQC-jianmingjiaocheng-01-04/</id>
     <published>2021-06-18T05:11:53.000Z</published>
-    <updated>2021-06-18T05:15:18.754Z</updated>
+    <updated>2021-06-20T13:06:37.589Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;量子逻辑门&quot;&gt;&lt;a href=&quot;#量子逻辑门&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;量子逻辑门&quot;&gt;&lt;a href=&quot;#量子逻辑门&quot; class=&quot;headerlink&quot; title=&quot;量子逻辑门&quot;&gt;&lt;/a&gt;量子逻辑门&lt;/h2&gt;&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -151,9 +151,9 @@
     
     <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
     
-    <category term="note" scheme="https://github.com/whtt/whtt.github.io/tags/note/"/>
-    
     <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
+    
+    <category term="note" scheme="https://github.com/whtt/whtt.github.io/tags/note/"/>
     
   </entry>
   
@@ -183,9 +183,9 @@
     
     <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
     
-    <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
-    
     <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
+    
+    <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
     
   </entry>
   
@@ -212,9 +212,9 @@
     
     <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
     
-    <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
-    
     <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
+    
+    <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
     
     <category term="math" scheme="https://github.com/whtt/whtt.github.io/tags/math/"/>
     

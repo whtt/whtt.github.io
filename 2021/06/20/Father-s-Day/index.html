@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念4 |  whtt&#39;s Blog</title>
+      <title>Father&#39;s Day |  whtt&#39;s Blog</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="./favicon.ico" />
@@ -44,7 +44,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-reading-QIQC-jianmingjiaocheng-01-04"
+  id="post-Father-s-Day"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -55,7 +55,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念4
+  Father&#39;s Day
 </h1>
  
 
@@ -63,15 +63,15 @@
     </header>
      
     <div class="article-meta">
-      <a href="/myBlog/public/2021/06/18/reading-QIQC-jianmingjiaocheng-01-04/" class="article-date">
-  <time datetime="2021-06-18T05:11:53.000Z" itemprop="datePublished">2021-06-18</time>
+      <a href="/myBlog/public/2021/06/20/Father-s-Day/" class="article-date">
+  <time datetime="2021-06-19T23:38:35.000Z" itemprop="datePublished">2021-06-20</time>
 </a>   
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">1.4k</span>
+            <span class="post-count">3k</span>
         </span>
     </span>
 
@@ -80,141 +80,33 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">7 min</span>
+            <span class="post-count">9 min</span>
         </span>
     </span>
 </div>
  
     </div>
       
-    <div class="tocbot"></div>
-
 
 
 
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="量子逻辑门"><a href="#量子逻辑门" class="headerlink" title="量子逻辑门"></a>量子逻辑门</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ol>
-<li>量子逻辑电路称为量子逻辑门，按输入比特的个数可分为单比特、二比特、三比特等。</li>
-<li>描述单一量子比特逻辑门的矩阵$U$都是酉矩阵，即$U^{\dagger}U=I$.</li>
-<li>幺正性约束是量子逻辑门上的唯一的约束，任何一个酉矩阵都可以指定为有效的量子逻辑门。</li>
-</ol>
-<h3 id="常见门"><a href="#常见门" class="headerlink" title="常见门"></a>常见门</h3><ol>
-<li>$Z-gate$<br>$$<br>Z\equiv\begin{bmatrix}<pre><code>1 &amp; 0 \\ 0 &amp; -1
-</code></pre>
-\end{bmatrix}<br>$$<br>保持状态$|0\rangle$不变，将状态$|1\rangle$的符号翻转成$-|1\rangle$.即<br>$$<br>\alpha|0\rangle+\beta|1\rangle\rightarrow\begin{bmatrix}<pre><code>\alpha \\ \beta
-</code></pre>
-\end{bmatrix} \<br>Z(\alpha|0\rangle+\beta|1\rangle)\rightarrow\begin{bmatrix}<pre><code>1 &amp; 0 \\ 0 &amp; -1
-</code></pre>
-\end{bmatrix}\begin{bmatrix}<pre><code>\alpha \\ \beta
-</code></pre>
-\end{bmatrix}=\begin{bmatrix}<pre><code>\alpha \\ -\beta
-</code></pre>
-\end{bmatrix}\rightarrow<br>\alpha|0\rangle-\beta|1\rangle<br>$$</li>
-<li>$Hadamard-gate$<br>$$<br>H\equiv\frac{1}{\sqrt{2}}\begin{bmatrix}<pre><code>1 &amp; 1 \\ 1 &amp; -1
-</code></pre>
-\end{bmatrix}<br>$$<br>这个逻辑门有时被描述成为非门的平方根（实际并不是），它将$|0\rangle$变换到$\frac{|0\rangle+|1\rangle}{\sqrt{2}}$，将$|1\rangle$变换到$\frac{|0\rangle-|1\rangle}{\sqrt{2}}$.即<br>$$<br>U(\alpha|0\rangle+\beta|1\rangle)\rightarrow\frac{1}{\sqrt{2}}\begin{bmatrix}<pre><code>1 &amp; 1 \\ 1 &amp; -1
-</code></pre>
-\end{bmatrix}\begin{bmatrix}<pre><code>\alpha \\ \beta
-</code></pre>
-\end{bmatrix}=\frac{1}{\sqrt{2}}\begin{bmatrix}<pre><code>\alpha+\beta \\ \alpha-\beta
-</code></pre>
-\end{bmatrix}\rightarrow<br>\frac{\alpha+\beta}{\sqrt{2}}|0\rangle+\frac{\alpha-\beta}{\sqrt{2}}|1\rangle<br>$$<br>也就是<br>$$<br>\frac{|0\rangle+|1\rangle}{\sqrt{2}}\alpha+\frac{|0\rangle-|1\rangle}{\sqrt{2}}\beta<br>$$</li>
-<li>其他单比特量子逻辑门<br>$$<br>\begin{aligned}<pre><code>X&amp;=\begin&#123;bmatrix&#125;
-    0 &amp; 1 \\ 1 &amp; 0
-\end&#123;bmatrix&#125;\\
-Y&amp;=\begin&#123;bmatrix&#125;
-    0 &amp; -i \\ i &amp; 0
-\end&#123;bmatrix&#125;\\
-S&amp;=\begin&#123;bmatrix&#125;
-    1 &amp; 0 \\ 0 &amp; i
-\end&#123;bmatrix&#125;\\
-T&amp;=\begin&#123;bmatrix&#125;
-    1 &amp; 0 \\ 0 &amp; e^&#123;i\pi/4&#125;
-\end&#123;bmatrix&#125;
-</code></pre>
-\end{aligned}<br>$$</li>
-<li>$Controlled-NOT$<br>$$<br>CNOT = \begin{bmatrix}<pre><code>1 &amp; 0 &amp; 0 &amp; 0 \\
-0 &amp; 1 &amp; 0 &amp; 0 \\
-0 &amp; 0 &amp; 0 &amp; 1 \\
-0 &amp; 0 &amp; 1 &amp; 0
-</code></pre>
-\end{bmatrix}<br>$$<br>受控非门的主要作用是在第一个比特为$|1\rangle$时将第二个比特变换。也就是说，第一个比特处于激发态时，第二个比特转换态。即，对于<br>$$<br>\alpha_{00}|00\rangle+\alpha_{01}|01\rangle+\alpha_{10}|10\rangle+\alpha_{11}|11\rangle<br>\rightarrow\begin{bmatrix}<pre><code>\alpha_&#123;00&#125; \\
-\alpha_&#123;01&#125; \\
-\alpha_&#123;10&#125; \\
-\alpha_&#123;11&#125;
-</code></pre>
-\end{bmatrix}<br>$$<br>有<br>$$<br>CNOT * (\alpha_{00}|00\rangle+\alpha_{01}|01\rangle+\alpha_{10}|10\rangle+\alpha_{11}|11\rangle) \ \rightarrow<br>\begin{bmatrix}<pre><code>1 &amp; 0 &amp; 0 &amp; 0 \\
-0 &amp; 1 &amp; 0 &amp; 0 \\
-0 &amp; 0 &amp; 0 &amp; 1 \\
-0 &amp; 0 &amp; 1 &amp; 0
-</code></pre>
-\end{bmatrix}<br>\begin{bmatrix}<pre><code>\alpha_&#123;00&#125; \\
-\alpha_&#123;01&#125; \\
-\alpha_&#123;10&#125; \\
-\alpha_&#123;11&#125;
-</code></pre>
-\end{bmatrix}=<br>\begin{bmatrix}<pre><code>\alpha_&#123;00&#125; \\
-\alpha_&#123;01&#125; \\
-\alpha_&#123;11&#125; \\
-\alpha_&#123;10&#125;
-</code></pre>
-\end{bmatrix}<br>\rightarrow<br>\alpha_{00}|00\rangle+\alpha_{01}|01\rangle+\alpha_{11}|10\rangle+\alpha_{10}|11\rangle<br>$$</li>
-<li>其他二比特量子逻辑门<br>$$<br>\begin{aligned}<pre><code>Swap &amp;= \begin&#123;bmatrix&#125;
-     1 &amp; 0 &amp; 0 &amp; 0 \\
-     0 &amp; 0 &amp; 1 &amp; 0 \\
-     0 &amp; 1 &amp; 0 &amp; 0 \\
-     0 &amp; 0 &amp; 0 &amp; 1
-\end&#123;bmatrix&#125; \\
-Controlled-Z &amp;= \begin&#123;bmatrix&#125;
-     1 &amp; 0 &amp; 0 &amp; 0 \\
-     0 &amp; 1 &amp; 0 &amp; 0 \\
-     0 &amp; 0 &amp; 1 &amp; 0 \\
-     0 &amp; 0 &amp; 0 &amp; -1
-\end&#123;bmatrix&#125; \\
-Controlled-phase &amp;= \begin&#123;bmatrix&#125;
-     1 &amp; 0 &amp; 0 &amp; 0 \\
-     0 &amp; 1 &amp; 0 &amp; 0 \\
-     0 &amp; 0 &amp; 1 &amp; 0 \\
-     0 &amp; 0 &amp; 0 &amp; i
-\end&#123;bmatrix&#125;
-</code></pre>
-\end{aligned}<br>$$</li>
-<li>$Toffoli$<br>$$<br>Toffoli = \begin{bmatrix}<pre><code>1&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0\\
-0&amp;1&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0\\
-0&amp;0&amp;1&amp;0&amp;0&amp;0&amp;0&amp;0\\
-0&amp;0&amp;0&amp;1&amp;0&amp;0&amp;0&amp;0\\
-0&amp;0&amp;0&amp;0&amp;1&amp;0&amp;0&amp;0\\
-0&amp;0&amp;0&amp;0&amp;0&amp;1&amp;0&amp;0\\
-0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;1\\
-0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;1&amp;0
-</code></pre>
-\end{bmatrix}<br>$$<br>Toffoli门是一个通用门，它在两个比特都处于激发态时，改变第三个比特的状态；在其他状态则保持不变。</li>
-<li>$Fredkin(Controlled-swap)$<br>   $$<br>Fredkin = \begin{bmatrix}<pre><code>1&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0\\
-0&amp;1&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0\\
-0&amp;0&amp;1&amp;0&amp;0&amp;0&amp;0&amp;0\\
-0&amp;0&amp;0&amp;1&amp;0&amp;0&amp;0&amp;0\\
-0&amp;0&amp;0&amp;0&amp;1&amp;0&amp;0&amp;0\\
-0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;1&amp;0\\
-0&amp;0&amp;0&amp;0&amp;0&amp;1&amp;0&amp;0\\
-0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;0&amp;1
-</code></pre>
-\end{bmatrix}<br>$$</li>
-</ol>
-<h2 id="图灵机"><a href="#图灵机" class="headerlink" title="图灵机"></a>图灵机</h2><h3 id="经典图灵机"><a href="#经典图灵机" class="headerlink" title="经典图灵机"></a>经典图灵机</h3><ol>
-<li>经典计算机实际上就是一个<code>通用图灵机</code>，通用图灵机是计算机的<code>抽象数学模型</code>。</li>
-<li>TM的构成<ul>
-<li>记忆单元</li>
-<li>处理单元</li>
-<li>控制程序</li>
-</ul>
-</li>
-<li>TM的三元组$M=(Q,\Sigma, \delta)$，其中$Q$是一个有限非空集合，表示TM的状态；$\Sigma$是一个有限非空集合，表示运算开始前输入数据的字符，其中有一特别的符号代表空白；$\delta$表示TM的控制程序的状态转换函数，该函数自$Q\times\Sigma$映射至$Q\times\Sigma\times D$（$D={L,<del>R,</del>N}$分别代表读写头左移、右移（一格）或不移动。</li>
-</ol>
-<h3 id="量子图灵机"><a href="#量子图灵机" class="headerlink" title="量子图灵机"></a>量子图灵机</h3><p>经典图灵机中，若每一步的移动存在不确定性，即当$q$和$\delta$给定时，图灵机以一定的概率$\delta(q, \sigma,d)$变换到状态$q’$和$\sigma’$及实行运动$d$.概率函数$\delta(q,\sigma,d)$为取值$[0,~1]$的实数，完全决定了概率图灵机的性质。</p>
-<p><strong>经典计算机理论证明，对解决某些问题，概率算法比确定性算法更为有效。</strong></p>
-<p><strong>对所有不可逆的通用图灵机，都可以找到一个对应的可逆图灵机，使得两者具有完全相同的计算能力和计算效率。</strong></p>
+  <p>我曾读过一篇文章，说父亲都是不善言辞的。其实我的父亲还比较善于言辞，我和父亲的交流也不少，但似乎记忆里满满的还是母亲，而父亲，似乎大多数都是背影。甚至每次和他们视频的时候，都是母亲“独霸”整个屏幕，父亲则在一旁，一副毫不关心我的样子。偶尔母亲不在，当父亲的脸占满了屏幕，我看着他，那笑起来就会多几分褶皱的脸，还有那隐约可见的白发，总感觉，怪怪的。</p>
+<p>确实，我一直在写有关母亲的文字，却很少写一些有关父亲的东西。就好像我和父亲的关系，虽然他并没有占据我多少记忆，但我们总是有很好的默契。</p>
+<p>不是我不想写父亲，只是每次想要勾勒几幅画面的时候，总感觉力不从心。就好像我在读一本很厚很厚的书，还没有读完就急着去写读后感。似乎有些东西可写，但一提笔便不知从何说起。我很想把他看完，却又发现，这本书太厚，以至于我根本不能在有生之年读完。</p>
+<p>父亲似乎就是这么一本书。写于他们知道了我的存在，至今仍在连载。我从小读到大，从现在读到将来。他是第一次写这本书，我也是第一次读这本书。初读不明其意囫囵吞枣，读到现在似乎有些感悟，而以后，我会继续去读，去写。</p>
+<p>我不记得我读第一页是什么感觉了，不过当父亲把这本书放到我手里的时候，他应该是很期待的吧，期待我给出反馈，哪怕是一个表情。也许，在放到我手里之前，他就会想我读到会是什么想法。当他想到我可能不喜欢读这一部分，他应该会删减一些；当他想到这一部分我需要了解，哪怕是我不喜欢，他也会浓墨重彩刻画描绘一番。这一部分，如果一起读，应该还是能读进去的，他应该是这么想的。当然我也是猜测，但记忆中父亲确实陪我读了很多我不愿读的却使我终身受益的部分，我就当他曾这么想过吧。</p>
+<p>我现在已经读了很厚很厚的一部分了，很多地方只是一扫而过——诚然这本书并不是所有章节都那么跌宕起伏、精彩绝伦，但还是有不少部分让我回味无穷。就比如高中三年读的父亲。我很早就听过高中生活的苦，那是个被人称作炼狱的地方。那个时候我还是很稚嫩的孩子，至少在父母眼里是这样。他们担心我的生活，担心我的学习，像担心一个只学了一节理论课的人便要上战场一样担心我的一切。母亲的工作在时间上很受限制，为了减缓我的压力，父亲选择了让自己辛苦一些，在保证正常工作的同时，将业余时间全花费在我身上。</p>
+<p>于是，父亲在炼狱里陪了我三年。第一年，我怀着新生都有的好奇和新鲜感，体验了高中宿舍，那可能是我毕生难忘的一年。学校坐落于山脚，宿舍也正好在山脚下。夏天本就很热，每到晚上，宿舍更是奇热，熄灯后，更是连仅有的一个风扇也断了电。白天也好不到哪里去，教室的风扇时不时就坏了，散热全靠心静。学校的自来水管很旧，放出的水经常是黑色的，常常要沉淀很长时间才能体会到清澈。有时候，连打回来的热水都是一股洗脚水味儿……但似乎，我并不觉得苦，一方面是和同学在一起，天不怕地不怕；另一方面是因为我身边还有父亲。</p>
+<p>有一次我发高烧，一个人请假在宿舍待着，睡得昏死。等我醒过来，爬下床，来到一楼，向宿管借个电话拨给父亲。之后父亲带我去校外的医院打了吊瓶，守着我，见我没有好转，又向老师请假带我回了家。说来也巧，我高中经常受伤或是生病，而几乎每一次似乎都是学校放假前一两天（学校放假是不提前很久通知的），这一次也不例外。我不记得后来是怎么好的了，但印象里小时候我体质很差，经常生病，而且每次生病吃药都好不了，必须得打针或是挂吊瓶才能康复。而每次挂完吊瓶，针头要么是父亲拔，要么是母亲拔，医生拔针头我都会害怕，但父母拔的时候，我从不怕。高中三年，生过病，还破过相，都是无所不能的父亲帮我处理。高三有一次上体育课，脚崴了，中午没有太多感觉，回来简单处理了一下，晚饭时才感觉到脚肿的厉害。为了不影响课程，还是一跛一跛去上学，当天晚上几乎是每五分钟就会痛醒一次。很幸运父亲一直在我身边，每天都为我处理脚踝。我很担心脚会不会好不了，父亲说：“伤筋动骨还要一百天呢！”也许是对父亲与生俱来的信任，他的一句话我便不担心了。</p>
+<p>高中的第二年开始，我便不再在宿舍里住了。我们在外面租了个简单的屋子，平日里奶奶陪我住，父母有空的时候就会过来，但母亲的工作时间上受限制更多，父亲离我更近，于是早上去上班，晚上过来陪我，一开始是骑着摩托车，后来是开着车。高中的压力还是很大的，有自己给自己的，也有外在给自己的。压力大时，常常难以排解，但每次回来只要见到父亲，烦恼自然而然就消失了。两年时间，我每天晚上十点半下晚自习，早上六点去上早读，除去睡觉和三餐时间，每天也只有差不多半个小时的时间可以和父亲平静地坐着交心。压力是如何排解的？熄灯之后，屋子很安静，夏天也只有知了的叫声和电风扇的声音。我想着这个简陋的屋子，想着父亲从早上滴到晚上接到的一桶清水，想着奶奶每天备好的饭菜和夜宵，想着很多事还有人可以为我排忧解难……于是，夏天也不热了，压力也不大了，未来又充满希望了。父亲并没有做多少伟大的事，但他为我所做的每一件事都算得上伟大。</p>
+<p>高考也是我很难忘的事，毕竟我到现在也还是认为自己没有考好。当我意识到自己考的不好的时候，当我看到分数觉得不理想的时候，我总会觉得……可显然父母并不这么想。那天晚上我们和一些朋友去吃了饭，父亲喝了很多酒。回来的路上我搀着父亲，他半醉不醉地说：“我今天很开心，我儿子很让我骄傲。”我心里，却很不是滋味。过几日，今年的考生就要去为志愿发愁了。我当时也很愁，父亲带着我去各种招生宣传会，想让我上一个好一点的学校。他像是一个无所不能的超人，总能在我考虑不周的时候指出那个致命的缺陷。有些事父亲也是第一次，他后来对我说：“我一直很怕，怕我当时的选择错了……”但当时，就像他说的：“走错了不要怕，我陪你一起面对。”</p>
+<p>不过，我没有太多时间去回味，毕竟还有好多好多还没有读过。翻开最新一页，也就是现在，父亲出差在外。出差并不新鲜，最近几年，周围几个城市父亲都跑遍了，每年在家待的时间和在外待的时间几乎一样长。我在广州，母亲在家，父亲出差在外，三人三地是常态。不过，若是不出差，长江雨季来了，父亲也会有其他必须去做的事。</p>
+<p>说来也巧，我出生的时候，正是长江洪水泛滥最严重的时候，父亲作为一名党员，一名公务员，自然是处在抗洪一线的。2016年高中毕业，长江洪水泛滥，父亲也是彻夜不归。去年我本科毕业，上半年疫情肆掠，七八月长江洪水泛滥，父亲还是经常披星光出门，乘朝霞而归。洪水来了，父亲以前是守堤，现在是巡堤。往往越是恶劣天气，越是要坚守岗位。伞坏了得出门，雨靴坏了也不能止步，泥泞是工作的印记，洪水退去才是辛勤工作的最好回报。父亲对待工作也和对待我一样一丝不苟。他和我讲抗洪的真情，当洪水太大的时候，为了保护大的圩口，不得不牺牲小的圩口。财产损失倒是其次，只是亲眼看着自己几十天拼死保护的圩口就这么放弃，就好像战士们用命换来的土地拱手送人，任谁心里会好受呢。但舍小圩保大圩，就像他们心中舍小家为大家的信仰，虽不舍，却必须做。我的父亲如此，同在抗洪抗疫一线的其他人亦如此。</p>
+<p>我不止是在读我自己的父亲，也在读其他人。我读过大伯，他和父亲很像。小时候我觉得这两兄弟一样的严厉，长大后觉得这两兄弟一样的温柔。每次姐姐有事，大伯嘴上说着让她自己想办法，最后却还是刀子嘴豆腐心，扛下了一切。我读大舅，读他作为父亲的取舍，为了姐姐坚守了大半辈子——虽然他是退伍军人，但一口气抬俩液化气瓶上个七八楼也会费劲，更何况是几十年如一日的坚持；我读二舅，读他作为父亲的陪伴——他身体不好，但弟弟的学习和品行从未轻视；我读小舅，读他作为父亲的责任——小舅家里孩子多，让他不得不起早贪黑，白天干白天的活，晚上加晚上的班……</p>
+<p>我读很多人，看着他们从风雨漂泊中走过来，看着他们向幸福生活走去。我读很多人，却又是为了更好地读懂我的父亲。我的父亲并不是一个完美的人，他也会犯错，但应有的责任、取舍、温柔、严厉、陪伴、信任、信仰……却实实在在地写在这本名叫父亲的书中。<br>每个人都是一本值得去读的书，父亲是一本让我穷尽一生也读不完的书。父亲并不是一个作家，不是一个学者，但他所写的这些文字，让我终生受益。母亲常说我们父子俩很默契，默契的意思，也许就是我渐渐能读懂我的父亲。</p>
  
       <!-- reward -->
       
@@ -285,12 +177,12 @@ Controlled-phase &amp;= \begin&#123;bmatrix&#125;
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/whtt/whtt.github.io/2021/06/18/reading-QIQC-jianmingjiaocheng-01-04/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/whtt/whtt.github.io/2021/06/20/Father-s-Day/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myBlog/public/tags/computable/" rel="tag">computable</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myBlog/public/tags/note/" rel="tag">note</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myBlog/public/tags/quantum/" rel="tag">quantum</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myBlog/public/tags/essay/" rel="tag">essay</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/myBlog/public/tags/love/" rel="tag">love</a></li></ul>
 
     </footer>
   </div>
@@ -298,19 +190,10 @@ Controlled-phase &amp;= \begin&#123;bmatrix&#125;
    
   <nav class="article-nav">
     
-      <a href="/myBlog/public/2021/06/20/Father-s-Day/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            Father&#39;s Day
-          
-        </div>
-      </a>
     
-    
-      <a href="/myBlog/public/2021/06/17/reading-QIQC-jianmingjiaocheng-01-03/" class="article-nav-link">
+      <a href="/myBlog/public/2021/06/18/reading-QIQC-jianmingjiaocheng-01-04/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念3</div>
+        <div class="article-nav-title">【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念4</div>
       </a>
     
   </nav>

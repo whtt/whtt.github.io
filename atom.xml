@@ -6,7 +6,7 @@
   <link href="https://github.com/whtt/whtt.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/whtt/whtt.github.io/"/>
-  <updated>2021-06-20T13:06:37.589Z</updated>
+  <updated>2021-06-23T08:42:23.858Z</updated>
   <id>https://github.com/whtt/whtt.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Father&#39;s Day</title>
+    <link href="https://github.com/whtt/whtt.github.io/2021/06/20/Father-s-Day/"/>
+    <id>https://github.com/whtt/whtt.github.io/2021/06/20/Father-s-Day/</id>
+    <published>2021-06-19T23:38:35.000Z</published>
+    <updated>2021-06-23T08:42:23.858Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我曾读过一篇文章，说父亲都是不善言辞的。其实我的父亲还比较善于言辞，我和父亲的交流也不少，但似乎记忆里满满的还是母亲，而父亲，似乎大多数都是背影。甚至每次和他们视频的时候，都是母亲“独霸”整个屏幕，父亲则在一旁，一副毫不关心我的样子。偶尔母亲不在，当父亲的脸占满了屏幕，我看</summary>
+        
+      
+    
+    
+    
+    
+    <category term="love" scheme="https://github.com/whtt/whtt.github.io/tags/love/"/>
+    
+    <category term="essay" scheme="https://github.com/whtt/whtt.github.io/tags/essay/"/>
+    
+  </entry>
   
   <entry>
     <title>【量子信息与量子计算简明教程|陈汉武】阅读笔记1——第一章 量子信息与量子计算的基础概念4</title>
@@ -151,9 +176,9 @@
     
     <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
     
-    <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
-    
     <category term="note" scheme="https://github.com/whtt/whtt.github.io/tags/note/"/>
+    
+    <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
     
   </entry>
   
@@ -183,9 +208,9 @@
     
     <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
     
-    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
-    
     <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
+    
+    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
     
   </entry>
   
@@ -212,9 +237,9 @@
     
     <category term="computable" scheme="https://github.com/whtt/whtt.github.io/tags/computable/"/>
     
-    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
-    
     <category term="survey" scheme="https://github.com/whtt/whtt.github.io/tags/survey/"/>
+    
+    <category term="deep learning" scheme="https://github.com/whtt/whtt.github.io/tags/deep-learning/"/>
     
     <category term="math" scheme="https://github.com/whtt/whtt.github.io/tags/math/"/>
     
